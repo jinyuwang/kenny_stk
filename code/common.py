@@ -10,7 +10,7 @@ import platform
 
 WORK_DIR = os.getcwd()
 sysstr = platform.system()
-print sysstr
+
 if (sysstr == "Windows"):
     PATH_SEP = '\\'
 elif (sysstr == "Linux"):
