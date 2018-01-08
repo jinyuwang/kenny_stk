@@ -10,9 +10,12 @@ import platform
 
 WORK_DIR = os.getcwd()
 sysstr = platform.system()
+print sysstr
 if (sysstr == "Windows"):
     PATH_SEP = '\\'
 elif (sysstr == "Linux"):
+    PATH_SEP = '/'
+else:
     PATH_SEP = '/'
 DATA_PATH = os.path.dirname(os.path.dirname(WORK_DIR)) + PATH_SEP + 'kenny_data'
 
