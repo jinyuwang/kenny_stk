@@ -6,7 +6,7 @@ Author: jinyuwang
 Date: 2018/1/6
 """
 import os, errno
-from common import WORK_DIR, DATA_PATH, PATH_SEP
+from code.pub.common import DATA_PATH
 
 
 def mkdir_p(path):

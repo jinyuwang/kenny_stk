@@ -8,7 +8,7 @@ Date: 2018/1/6
 import os
 import platform
 
-WORK_DIR = os.getcwd()
+WORK_DIR = os.path.dirname(os.getcwd())
 sysstr = platform.system()
 
 if (sysstr == "Windows"):
